@@ -1,13 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import MainPage from './components/MainPage.vue'
 import MainPageOptions from './components/MainPageOptions.vue'
+import {RouterView} from 'vue-router'
 </script>
 
 <template>
   <header>
     <div class="wrapper">
-      <HelloWorld msg="Welcome to the Thank You Card Generator!" />
+      <RouterView />
     </div>
   </header>
 
