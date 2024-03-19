@@ -1,15 +1,8 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
-</script>
+<script setup></script>
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">Welcome to the Thank You Card Generator!</h1>
   </div>
 </template>
 

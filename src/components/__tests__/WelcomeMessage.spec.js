@@ -5,7 +5,7 @@ import WelcomeMessage from '../WelcomeMessage.vue'
 
 describe('HelloWorld', () => {
   it('renders properly', () => {
-    const wrapper = mount(WelcomeMessage, { props: { msg: 'Hello Vitest' } })
-    expect(wrapper.text()).toContain('Hello Vitest')
+    const wrapper = mount(WelcomeMessage)
+    expect(wrapper.text()).toContain('Welcome to the Thank You Card Generator!')
   })
 })
